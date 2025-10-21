@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     allowedHosts: ["partly-popular-airedale.ngrok-free.app"],
   },
+  base: "/nure-scedual"
 })

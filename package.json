@@ -1,5 +1,6 @@
 {
   "name": "nure-scedual",
+  "homepage": "https://IgorDyshuk.github.io/nure-scedual",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,13 +9,16 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "node server/index.js"
+    "server": "node server/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "chardet": "^2.1.0",
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
     "express": "^5.1.0",
+    "gh-pages": "^6.3.0",
     "iconv-lite": "^0.7.0",
     "multer": "^2.0.2",
     "papaparse": "^5.5.3",
