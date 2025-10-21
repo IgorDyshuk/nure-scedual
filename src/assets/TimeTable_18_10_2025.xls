@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+                 <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+                      <Author>Department IAS</Author>
+                      <LastAuthor>Department IAS</LastAuthor>
+                      <Created>2006-09-14T9:57:04Z</Created>
+                      <Company>IASU</Company>
+                      <Version>10.2625</Version>
+                  </DocumentProperties>
+    <Styles>
+<Style ss:ID="s15">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="Default" ss:Name="Normal">
+  <Borders /> 
+  <Font ss:FontName="Arial Cyr" x:CharSet="204" ss:Size="10" /> 
+  <Interior /> 
+  <NumberFormat /> 
+  <Protection /> 
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" /> 
+  </Style>
+<Style ss:ID="sh21">
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+ <Style ss:ID="sh23">
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  <Font ss:FontName="Arial Cyr" x:CharSet="204" ss:Size="22" ss:Bold="1" /> 
+  </Style>
+<Style ss:ID="sh24">
+  <Alignment ss:Horizontal="Left" ss:Vertical="Center" /> 
+  </Style>
+<Style ss:ID="sh25">
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  <Font ss:FontName="Arial Cyr" x:CharSet="204" ss:Size="14" /> 
+  </Style>
+<Style ss:ID="shDLPH2">
+  <Alignment ss:Horizontal="Left" ss:Vertical="Center" /> 
+  </Style>
+ <Style ss:ID="s0">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s1">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  <Interior ss:Color="#AAAAAA" ss:Pattern="Solid" /> 
+  </Style>
+<Style ss:ID="s2">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s3">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s4">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s5">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s6">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s7">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s8">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s9">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s10">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s11">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s12">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s13">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  </Style>
+ <Style ss:ID="s14">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" /> 
+  </Style>
+<Style ss:ID="s16">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  </Borders>
+  </Style>
+<Style ss:ID="s17">
+ <Borders>
+  <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Top" ss:LineStyle="Double" ss:Weight="3" /> 
+  <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" /> 
+  <Border ss:Position="Right" ss:LineStyle="Double" ss:Weight="3" /> 
+  </Borders>
+  </Style>
+</Styles>
+<Worksheet ss:Name="ІТШІ-22-4">
+         <Table ss:ExpandedColumnCount="500" ss:ExpandedRowCount="5000" x:FullColumns="1" x:FullRows="1">
+          <Column ss:AutoFitWidth="0" ss:Width="15.75" />
+          <Column ss:AutoFitWidth="0" ss:Width="30" />
+          <Column ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="27" />
+<Row ss:AutoFitHeight="0" ss:Height="21.75">      <Cell ss:MergeAcross="3" ss:StyleID="sh21"><Data ss:Type="String">ЗАТВЕРДЖУЮ:</Data></Cell>      <Cell ss:StyleID="sh21"/>      <Cell ss:MergeAcross="22" ss:StyleID="sh23"><Data ss:Type="String">P О З К Л А Д      З А H Я Т Ь</Data></Cell>     </Row>     <Row>      <Cell ss:MergeAcross="3" ss:StyleID="sh21"><Data ss:Type="String"> Декан факультету </Data></Cell>      <Cell ss:StyleID="sh21"/>      <Cell ss:MergeAcross="22" ss:StyleID="sh21"><Data ss:Type="String">СТУДЕHТIВ  КУРСУ,  ФАКУЛЬТЕТУ, ДЕННОЇ / ЗАОЧНОЇ ФОРМИ HАВЧАHHЯ</Data></Cell>     </Row>     <Row>      <Cell ss:StyleID="sh21"/>      <Cell ss:StyleID="sh21"/>      <Cell ss:StyleID="sh21"/>      <Cell ss:StyleID="sh21"/>      <Cell ss:StyleID="sh21"/>      <Cell ss:MergeAcross="22" ss:StyleID="sh21"><Data ss:Type="String">В ВЕСНЯНОМУ / ОСІННЬОМУ СЕМЕСТРI 2025/2026 HАВЧАЛЬHОГО РОКУ, ГРУП</Data></Cell>     </Row>     <Row>      <Cell ss:MergeAcross="3" ss:StyleID="sh21"><Data ss:Type="String">&quot;____&quot;____________________2015 р.</Data></Cell>      <Cell ss:StyleID="sh21"/>      <Cell ss:MergeAcross="22" ss:StyleID="sh21"><Data ss:Type="String">ІТШІ-22-4</Data></Cell>     </Row>     <Row/>
+<Row>
+<Cell ss:StyleID="s0"><Data ss:Type="String">№</Data> </Cell>
+                 <Cell ss:StyleID="s0"><Data ss:Type="String">Тижні</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">1</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">2</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">5</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">6</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">7</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">8</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">9</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">10</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">11</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">12</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">13</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">14</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">15</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">16</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">17</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">18</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">19</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">20</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">21</Data> </Cell>
+<Cell ss:StyleID="s0"><Data ss:Type="String">22</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Понеділок</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">08.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">15.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">22.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">29.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">06.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">13.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">20.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">27.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">03.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">10.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">17.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">24.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">08.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">15.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">22.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">29.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">05.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">12.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">19.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">26.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">1</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">07:45 09:20</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">2</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">09:30 11:05</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">11:15 12:50</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">13:10 14:45</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">5</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">14:55 16:30</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">6</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">16:40 18:15</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Вівторок</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">02.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">09.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">16.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">23.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">30.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">07.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">14.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">21.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">28.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">04.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">11.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">18.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">25.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">02.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">09.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">16.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">23.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">30.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">06.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">13.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">20.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">27.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">11:15 12:50</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">13:10 14:45</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Середа</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">03.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">10.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">17.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">24.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">08.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">15.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">22.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">29.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">05.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">12.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">19.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">26.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">03.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">10.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">17.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">24.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">31.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">07.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">14.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">21.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">28.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">1</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">07:45 09:20</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">2</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">09:30 11:05</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПNET Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">11:15 12:50</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="4" 
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="8" 
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">13:10 14:45</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="6" 
+><Data ss:Type="String">
+ШНМнз Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="8" 
+><Data ss:Type="String">
+ШНМнз Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Четвер</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">04.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">11.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">18.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">25.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">02.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">09.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">16.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">23.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">30.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">06.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">13.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">20.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">27.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">04.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">11.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">18.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">25.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">08.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">15.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">22.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">29.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">1</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">07:45 09:20</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">2</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">09:30 11:05</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">11:15 12:50</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="2" 
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">13:10 14:45</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="2" 
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Лк DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Пз DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2); *МАтР Пз DL (№1)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">П'ятниця</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">05.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">12.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">19.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">26.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">03.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">10.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">17.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">24.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">31.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">07.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">14.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">21.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">28.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">05.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">12.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">19.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">26.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">02.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">09.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">16.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">23.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">30.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">3</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">11:15 12:50</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="16" 
+><Data ss:Type="String">
+ФВ Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">4</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">13:10 14:45</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="4" 
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">5</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">14:55 16:30</Data> </Cell>
+<Cell ss:StyleID="s7"
+><Data ss:Type="String">
+*ІМТА Лк DL (№2)
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ПScala Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ШНМнз Лк DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s3"> <Data ss:Type="String">6</Data> </Cell>
+<Cell ss:StyleID="s4"> <Data ss:Type="String">16:40 18:15</Data> </Cell>
+<Cell ss:StyleID="s7"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9" ss:MergeAcross="1" 
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"
+><Data ss:Type="String">
+ІТвІSW Пз DL
+</Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s9"><Data ss:Type="String"> </Data> </Cell>
+<Cell ss:StyleID="s10"><Data ss:Type="String"> </Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Субота</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">06.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">13.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">20.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">27.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">04.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">11.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">18.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">25.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">08.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">15.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">22.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">29.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">06.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">13.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">20.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">27.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">03.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">10.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">17.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">24.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">31.01.2026</Data> </Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="s1" ss:MergeAcross="1"><Data ss:Type="String">Неділя</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">07.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">14.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">21.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">28.09.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">05.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">12.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">19.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">26.10.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">02.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">09.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">16.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">23.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">30.11.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">07.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">14.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">21.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">28.12.2025</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">04.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">11.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">18.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">25.01.2026</Data> </Cell>
+<Cell ss:StyleID="s1"><Data ss:Type="String">01.02.2026</Data> </Cell>
+</Row>
+<Row/>
+<Row>
+  <Cell ss:Index="3" ss:StyleID="sh24"><Data ss:Type="String">Начальник НВ ________________________</Data></Cell>
+  <Cell ss:Index="6"><Data ss:Type="String">17.10.2025</Data></Cell>
+</Row>
+<Row/>
+
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">*ІМТА</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">*Інтелектуальні методи технічного аналізу : Лк (30) - *ІМТА(ІТШІ-22-)-1;*ІМТА(ІТШІ-22-)-2, Селіванова К. Г.: 
+Пз (20) - *ІМТА(ІТШІ-22-)-2, Шафроненко А. Ю.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">ІТвІSW</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">Інтелектуальні технології в Internet та Semantic Web : Лк (36) - ІТШІ-22-1,2,3,4, Вітько О. В.: 
+Пз (24) - ІТШІ-22-4, Поліїт М. Р.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">*МАтР</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">*Мікросервісна архітектура та розподілені системи : Лк (30) - *МАтР(ІТШІ-22-)-1, Бібічков І. Є.: 
+Пз (20) - *МАтР(ІТШІ-22-)-1, Бібічков І. Є.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">ПScala</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">Паралельне програмування на Scala : Лк (30) - ІТШІ-22-1,2,3,4, Водяницький Д. В.: 
+Пз (20) - ІТШІ-22-4, Захаревич М. С.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">ПNET</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">Програмування під .NET Core : Лк (24) - ІТШІ-22-1,2,3,4, Губін В. О.: 
+Пз (16) - ІТШІ-22-4, Бібічков І. Є.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">ФВ</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">Фізичне виховання (за рахунок вільного часу студентів) : Пз (34) - ІТШІ-22-1,2,3,4, Хромих Р. В.: 
+</Data></Cell></Row>
+<Row>
+<Cell/><Cell ss:StyleID="shDLPH2"><Data ss:Type="String">ШНМнз</Data></Cell>
+                             <Cell ss:StyleID="shDLPH2" ss:Index="4"><Data ss:Type="String">Штучні нейронні мережі: архітектура, навчання, застосування : Лк (36) - ІТШІ-22-1,2,3,4, Бодянський Є. В.: 
+Пз (24) - ІТШІ-22-4, Шафроненко А. Ю.: 
+</Data></Cell></Row>
+</Table>
+</Worksheet>
+</Workbook>
