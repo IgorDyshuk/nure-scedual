@@ -30,6 +30,14 @@ const MAX_GAP_MINUTES = 20;
 const normalizeString = (value: string | undefined): string =>
   (value ?? "").trim();
 
+const PREWORK_TITLES = new Set(
+  [
+    "ПScala Пз DL ІТШІ-22-4",
+    "ПNET Пз DL ІТШІ-22-4",
+    "ІТвІSW Пз DL ІТШІ-22-4",
+  ].map((title) => normalizeString(title).toLocaleLowerCase())
+);
+
 const parseDateTime = (
   date: string | undefined,
   time: string | undefined
@@ -223,37 +231,50 @@ function App() {
     });
   }, []);
 
-  const { combinedSessions, missedSessionsIds, completedSessionsIds } =
-    useMemo(() => {
-      const nowTs = Date.now();
-      const missed: PracticeSession[] = [];
-      const completed: PracticeSession[] = [];
-      const upcoming: PracticeSession[] = [];
+  const {
+    combinedSessions,
+    missedSessionsIds,
+    completedSessionsIds,
+    preworkSessionsIds,
+  } = useMemo(() => {
+    const nowTs = Date.now();
+    const missed: PracticeSession[] = [];
+    const completed: PracticeSession[] = [];
+    const upcoming: PracticeSession[] = [];
+    const preworkMatches = new Set<string>();
 
-      sessions.forEach((session) => {
-        if (completedIds.has(session.id)) {
-          completed.push(session);
-          return;
-        }
+    sessions.forEach((session) => {
+      const normalizedTitle = normalizeString(
+        session.title
+      ).toLocaleLowerCase();
+      if (PREWORK_TITLES.has(normalizedTitle)) {
+        preworkMatches.add(session.id);
+      }
 
-        if (session.start.getTime() <= nowTs) {
-          missed.push(session);
-        } else {
-          upcoming.push(session);
-        }
-      });
+      if (completedIds.has(session.id)) {
+        completed.push(session);
+        return;
+      }
 
-      missed.sort((a, b) => a.start.getTime() - b.start.getTime());
-      upcoming.sort((a, b) => a.start.getTime() - b.start.getTime());
+      if (session.start.getTime() <= nowTs) {
+        missed.push(session);
+      } else {
+        upcoming.push(session);
+      }
+    });
 
-      return {
-        missedSessions: missed,
-        upcomingSessions: upcoming,
-        combinedSessions: [...missed, ...upcoming],
-        missedSessionsIds: new Set(missed.map((item) => item.id)),
-        completedSessionsIds: new Set(completed.map((item) => item.id)),
-      };
-    }, [sessions, completedIds]);
+    missed.sort((a, b) => a.start.getTime() - b.start.getTime());
+    upcoming.sort((a, b) => a.start.getTime() - b.start.getTime());
+
+    return {
+      missedSessions: missed,
+      upcomingSessions: upcoming,
+      combinedSessions: [...missed, ...upcoming],
+      missedSessionsIds: new Set(missed.map((item) => item.id)),
+      completedSessionsIds: new Set(completed.map((item) => item.id)),
+      preworkSessionsIds: preworkMatches,
+    };
+  }, [sessions, completedIds]);
 
   const nextThree = combinedSessions.slice(0, 3);
 
@@ -274,9 +295,13 @@ function App() {
             : completedSessionsIds.has(session.id)
             ? "card-completed"
             : ""
+        } ${
+          preworkSessionsIds.has(session.id)
+            ? "card-prework card-upcoming-prework"
+            : ""
         }`}
       >
-        <h3 className="session-card-title session-upcoming-card-title">
+        <h3 className={`session-card-title session-upcoming-card-title `}>
           {session.title}
         </h3>
         <p className="session-order session-upcoming-card-order ">
@@ -307,9 +332,9 @@ function App() {
             : completedSessionsIds.has(session.id)
             ? "card-completed"
             : ""
-        }`}
+        } ${preworkSessionsIds.has(session.id) ? "card-prework" : ""}`}
       >
-        <h3 className="session-card-title">{session.title}</h3>
+        <h3 className={`session-card-title`}>{session.title}</h3>
         <p className="session-order">
           Практика №{session.occurrence} по предмету
         </p>
