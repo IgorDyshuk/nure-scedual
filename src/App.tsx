@@ -90,8 +90,6 @@ const detectIsPractice = (row: CsvRow): boolean => {
   return hasPracticeMarker && !hasLectureMarker;
 };
 
-//TODO: добавить чтобы обозначалось пз у которого есть дедлайн
-
 const mergePracticeSessions = (
   sessions: RawSession[]
 ): Array<RawSession & { pairCount: number }> => {
@@ -348,30 +346,36 @@ function App() {
 
   return (
     <main className="app">
-      <section>
-        <ul className="session-grid">
-          {nextThree.map((session) => (
-            <UpcomingSession
-              key={session.id}
-              session={session}
-              completed={completedIds.has(session.id)}
-              onToggle={toggleCompleted}
-            />
-          ))}
-        </ul>
-      </section>
-      <section>
-        <ul className="session-list">
-          {sessions.map((session) => (
-            <AllSessions
-              key={session.id}
-              session={session}
-              completed={completedIds.has(session.id)}
-              onToggle={toggleCompleted}
-            />
-          ))}
-        </ul>
-      </section>
+      {error ? (
+        <p>{error}</p>
+      ) : (
+        <>
+          <section>
+            <ul className="session-grid">
+              {nextThree.map((session) => (
+                <UpcomingSession
+                  key={session.id}
+                  session={session}
+                  completed={completedIds.has(session.id)}
+                  onToggle={toggleCompleted}
+                />
+              ))}
+            </ul>
+          </section>
+          <section>
+            <ul className="session-list">
+              {sessions.map((session) => (
+                <AllSessions
+                  key={session.id}
+                  session={session}
+                  completed={completedIds.has(session.id)}
+                  onToggle={toggleCompleted}
+                />
+              ))}
+            </ul>
+          </section>
+        </>
+      )}
     </main>
   );
 }

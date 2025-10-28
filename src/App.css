@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2.5rem 1.5rem 4rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+  color: #00032e;
   background-color: #00032e;
 }
 
@@ -96,6 +96,8 @@ header h1 {
   content: "★";
     position: absolute;
     top: 7px;
+    top: 7px;
+    /* подберите смещение по вкусу */
     /* подберите смещение по вкусу */
     right: 7px;
     font-size: 0.65rem;
